@@ -1,28 +1,27 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+// nota.cpp : Defines the entry point for the console application.
+//
 
-# Precompiled Headers
-*.gch
-*.pch
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+using namespace std;
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+void main()
+{
+	int p1, p2, p3, np, nf, nota; 
+    cout<<"nota de parciales: "<<end1;
+    cin>>p1;
+	cin>>p2;
+	cin>>p3;
+	cout<<"notas practicas: "<<end1;
+    cin>>np;
+	cout<<"nota de examen final: "<<end1;
+    cin>>nf;
+    nota:(((p1+p2+p3)/3)*0.4)+(np*0.2)+(nf*0.4);
+	cout<<"nota final es: "<<end1;
+    cout<<nota; 
+	
+	getch(); 
 
-# Fortran module files
-*.mod
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+}
